@@ -25,7 +25,7 @@ O sistema avalia o consumo seguindo as seguintes regras:
 ### 2.Baixe os arquivos do projeto para uma pasta local.
 ### 3.Abra o terminal (ou prompt de comando).
 ### 4.Navegue até a pasta onde o arquivo se encontra e execute o seguinte comando:
-python app_descontos.py
+python consumo_agua.py
 (Nota: Se o seu arquivo tiver outro nome, substitua consumo_agua.py pelo nome correto do arquivo salvo).
 ### 5.Digite o tipo de imovél e depois o valor do seu consumo e leia a orientação! 🎉
 

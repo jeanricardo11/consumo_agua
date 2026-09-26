@@ -1,33 +1,29 @@
-# ⚡ Calculadora de Consumo de Energia
+# 💧 Eco Aqua - Consumo Consciente
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Energia](https://img.shields.io/badge/Consumo_Elétrico-FFC107?style=for-the-badge&logo=lightning&logoColor=black)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Meio Ambiente](https://img.shields.io/badge/Sustentabilidade-006400?style=for-the-badge&logo=leaf&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
 
-## 🎯 Objetivo do Projeto
-O **Calculadora de Consumo de Energia** é um sistema simples desenvolvido em terminal para calcular o consumo mensal de energia elétrica de aparelhos domésticos. Ele também estima o custo financeiro na conta de luz, ajudando no controle e planejamento de gastos! 💡💸
+## 📖 Sobre o Projeto
+O **EcoÁgua** é um script desenvolvido em Python para apoiar a campanha de conscientização ambiental da companhia de saneamento local. O sistema classifica o perfil de consumo de água dos imóveis com base no seu tipo (comercial, casa ou apartamento) e na quantidade de metros cúbicos (m³) gastos no mês, emitindo alertas educativos automáticos para os moradores.
 
-## 💻 Linguagem Utilizada
-- **Python** 🐍
+O objetivo é incentivar a redução do desperdício de água e alertar sobre possíveis vazamentos em caso de consumo excessivo.
 
-## 🧮 Fórmula Utilizada
-O cálculo do consumo mensal (em kWh) é feito utilizando a seguinte fórmula padrão:
+## ⚙️ Funcionalidades e Regras de Negócio
+O sistema avalia o consumo seguindo as seguintes regras:
+- 🏢 **Comercial:** Aplica aviso de tarifa corporativa.
+- 🏙️ **Apartamento (< 10 m³):** Parabeniza pelo consumo econômico.
+- 🏠 **Casa ou Apartamento (até 25 m³):** Indica consumo moderado e dentro do padrão.
+- ⚠️ **Acima dos limites residenciais:** Alerta para consumo excessivo e possível vazamento.
 
-```python
-consumoMensal = (potencia * horasDia * 30) / 1000
-```
-- `potencia`: Potência do aparelho em Watts (W).
-- `horasDia`: Tempo médio de uso diário em horas.
-- `30`: Quantidade média de dias em um mês.
-- `1000`: Fator de conversão de Watts para Kilowatts (kW).
+## 🚀 Como Executar o Projeto
 
-## 🚀 Como Executar o Programa
+### 1. Pré-requisitos
+- Ter o [Python](https://www.python.org/downloads/) instalado na sua máquina (versão 3.x recomendada).
 
-1. Certifique-se de ter o **Python** instalado em sua máquina.
-2. Baixe os arquivos do projeto para uma pasta local.
-3. Abra o terminal (ou prompt de comando).
-4. Navegue até a pasta onde o arquivo se encontra e execute o seguinte comando:
-   ```bash
-   python calculadora_energia.py
-   ```
-5. Siga as instruções na tela e descubra o consumo dos seus aparelhos! 📊
+### 2. Clonando o Repositório
+Abra o terminal e digite:
+```bash
+git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+cd NOME_DO_REPOSITORIO
+
